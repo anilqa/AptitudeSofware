@@ -1,0 +1,37 @@
+<p1:JobMessage xmlns:p1="http://eix.com/schemas/jobMessage">
+<p1:Header xmlns:p2="http://eix.com/schemas/commonStructures">
+      <p2:RefNo>570864160</p2:RefNo>
+      <p2:MsgType>JOB_ASGN</p2:MsgType>
+      <p2:SendTime>2016-05-07T08:00:13</p2:SendTime>
+      <p2:Action>U</p2:Action>
+      <p2:User>NOBODY</p2:User>
+   </p1:Header>
+   <p1:JobMsg>
+      <p1:JobNo>%jobNo%</p1:JobNo>
+      <p1:JobType>BUILDUP</p1:JobType>
+      <p1:Flight xmlns:p2="http://eix.com/schemas/commonStructures">
+         <p2:Carrier>XX</p2:Carrier>
+         <p2:FltNumber>%flightNumber%</p2:FltNumber>
+         <p2:FltDate>%date%</p2:FltDate>
+      </p1:Flight>
+      <p1:OffPoint>NRT</p1:OffPoint>
+      <p1:Location>LOCTST</p1:Location>
+      <p1:ULDType>AKE</p1:ULDType><p1:ULDserial></p1:ULDserial><p1:ULDOwner>AY</p1:ULDOwner>
+      <p1:StartTime>%startTime%</p1:StartTime>
+      <p1:Duration>88</p1:Duration>
+      <p1:ACCDuration>88</p1:ACCDuration>
+	     <p1:AWBMsg xmlns:p2="http://eix.com/schemas/awb">
+         <p2:AWBID>
+		 <p2:AWBPrefix>888</p2:AWBPrefix>
+		 <p2:AWBSerial>%awbNumber%</p2:AWBSerial>
+         </p2:AWBID>
+         <p2:HAWB/>
+         <p2:PCS>%pieces%</p2:PCS>
+         <p1:AWBRemark />
+         <p1:SrcUnit xmlns:p3="http://eix.com/schemas/uld">
+            <p3:Location>ANNOUNCED</p3:Location>
+            <p3:LoadType>L</p3:LoadType>
+         </p1:SrcUnit>
+      </p1:AWBMsg>
+   </p1:JobMsg>
+</p1:JobMessage>

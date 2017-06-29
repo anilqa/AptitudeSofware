@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Expected ')'</Name>
+    <ErrorText>Expected ')'</ErrorText>
+    <Description>&lt;BR/&gt;Line (30): &amp;quot;call fn_Click(WpfWindow(&amp;quot;HP MyFlight Sample Application&amp;quot;).WpfButton(&amp;quot;FIND FLIGHTS&amp;quot;),&amp;quot;FindFlight&amp;quot;&amp;quot;.</Description>
+    <StartTime>2017-06-21 12:36:37</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>a2355bcd32d04c90a8330d91003acaff</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2017-06-21 12:36:42</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>fa037368da614412b4469310846c3e7b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>FlightBooking</Name>
+    <Description />
+    <StartTime>2017-06-21 12:36:37</StartTime>
+    <Duration>5</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>80b103b0692249d79a8df18ef2c91dd4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>FlightBooking</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.53</ToolVersion>
+    <Description />
+    <StartTime>2017-06-21 12:36:36</StartTime>
+    <Duration>7</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>e2efe7e88cf94ee1b365325fe22c89b0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>CIGNITIGLOBAL\E003690</User>
+      <CpuInfo>Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8094</TotalMemory>
+      <HostName>cignitiglobal.com\CTLINDT-0796</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res32</ResultName>
+    <RunStartTime>2017-06-21 12:36:36</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.53</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

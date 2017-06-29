@@ -1,0 +1,15 @@
+Test Name	Expected	Status	Time
+FlightBooking	Found already opened FlightGui application, attempting to close it	PASS	6/22/2017 10:44:23 AM
+FlightBooking	Application successfully launched	PASS	6/22/2017 10:44:29 AM
+FlightBooking	UserName entered as john	PASS	6/22/2017 10:44:29 AM
+FlightBooking	Password entered as hp	PASS	6/22/2017 10:44:30 AM
+FlightBooking	successfully clicked Login button	PASS	6/22/2017 10:44:30 AM
+FlightBooking	Selected menu is Frankfurt	PASS	6/22/2017 10:44:31 AM
+FlightBooking	Selected menu is London	PASS	6/22/2017 10:44:31 AM
+FlightBooking	Selected menu is Economy	PASS	6/22/2017 10:44:31 AM
+FlightBooking	Selected menu is 1	PASS	6/22/2017 10:44:32 AM
+FlightBooking	successfully clicked FindFlight button	PASS	6/22/2017 10:44:32 AM
+FlightBooking	successfully clicked on row:1 & col:1	PASS	6/22/2017 10:44:32 AM
+FlightBooking	successfully clicked SelectFlight button	PASS	6/22/2017 10:44:33 AM
+FlightBooking	PassengerName entered as KishoreB	PASS	6/22/2017 10:44:33 AM
+FlightBooking	successfully clicked Order button	PASS	6/22/2017 10:44:33 AM

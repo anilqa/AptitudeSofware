@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>The DataTable.ImportSheet operation failed. Invalid file.</Name>
+    <ErrorText>The DataTable.ImportSheet operation failed. Invalid file.</ErrorText>
+    <Description>&lt;BR/&gt;Line (12): &amp;quot;DataTable.ImportSheet strProjectTestdataPath&amp;amp;Environment(&amp;quot;TestName&amp;quot;)&amp;amp;&amp;quot;.xls&amp;quot;, Environment(&amp;quot;TestName&amp;quot;), &amp;quot;Global&amp;quot;&amp;quot;.</Description>
+    <StartTime>2017-06-20 17:29:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>807dceca7b9f45ee96c659e764d8bc7e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2017-06-20 17:29:44</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>72928c08824f4defa5b78b50692fb0c3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>FlightBooking</Name>
+    <Description />
+    <StartTime>2017-06-20 17:29:35</StartTime>
+    <Duration>9</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>8d124f7d75cd43058f42fcfec233e00f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2017-06-20 17:29:35</StartTime>
+    <Duration>9</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>3fa7bfe5048d43c081457f292b094cc1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>FlightBooking</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.53</ToolVersion>
+    <Description />
+    <StartTime>2017-06-20 17:29:34</StartTime>
+    <Duration>10</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>6517f7564e744f1a820453ca0247b58a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>CIGNITIGLOBAL\E003690</User>
+      <CpuInfo>Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8094</TotalMemory>
+      <HostName>cignitiglobal.com\CTLINDT-0796</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res4</ResultName>
+    <RunStartTime>2017-06-20 17:29:34</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.53</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

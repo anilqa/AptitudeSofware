@@ -1,0 +1,6 @@
+Test Name	Expected	Status	Time
+InvalidUser	Application successfully launched	PASS	6/22/2017 12:42:19 PM
+InvalidUser	UserName entered as john	PASS	6/22/2017 12:42:19 PM
+InvalidUser	Password entered as test@123	PASS	6/22/2017 12:42:20 PM
+InvalidUser	successfully clicked Login button	PASS	6/22/2017 12:42:20 PM
+InvalidUser	Successfully found failed login dialog box	PASS	6/22/2017 12:42:20 PM

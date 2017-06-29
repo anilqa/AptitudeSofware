@@ -1,0 +1,15 @@
+Test Name	Expected	Status	Time
+FlightBooking	Application successfully launched	PASS	6/22/2017 1:38:14 PM
+FlightBooking	UserName entered as john	PASS	6/22/2017 1:38:14 PM
+FlightBooking	Password entered as hp	PASS	6/22/2017 1:38:15 PM
+FlightBooking	successfully clicked Login button	PASS	6/22/2017 1:38:15 PM
+FlightBooking	Frankfurt is selected for fromCity dropdown	PASS	6/22/2017 1:38:15 PM
+FlightBooking	London is selected for ToCity dropdown	PASS	6/22/2017 1:38:16 PM
+FlightBooking	Economy is selected for Classtype dropdown	PASS	6/22/2017 1:38:16 PM
+FlightBooking	1 is selected for Tickets dropdown	PASS	6/22/2017 1:38:17 PM
+FlightBooking	successfully clicked FindFlight button	PASS	6/22/2017 1:38:17 PM
+FlightBooking	In flightno grid, successfully clicked on row:1 & col:1	PASS	6/22/2017 1:38:17 PM
+FlightBooking	successfully clicked SelectFlight button	PASS	6/22/2017 1:38:17 PM
+FlightBooking	PassengerName entered as KishoreB	PASS	6/22/2017 1:38:18 PM
+FlightBooking	successfully clicked Order button	PASS	6/22/2017 1:38:18 PM
+FlightBooking	Found already opened FlightGui application, attempting to close it	PASS	6/22/2017 1:38:18 PM

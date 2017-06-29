@@ -1,0 +1,14 @@
+Test Name	Expected	Status	Time
+FlightBooking	Application successfully launched	PASS	6/21/2017 5:24:24 PM
+FlightBooking	 UserName edit success	PASS	6/21/2017 5:24:25 PM
+FlightBooking	 Password edit success	PASS	6/21/2017 5:24:25 PM
+FlightBooking	successfully clicked Login button	PASS	6/21/2017 5:24:25 PM
+FlightBooking	Selected menu is fromCity	PASS	6/21/2017 5:24:26 PM
+FlightBooking	Selected menu is ToCity	PASS	6/21/2017 5:24:26 PM
+FlightBooking	Selected menu is Classtype	PASS	6/21/2017 5:24:26 PM
+FlightBooking	Selected menu is Tickets	PASS	6/21/2017 5:24:27 PM
+FlightBooking	successfully clicked FindFlight button	PASS	6/21/2017 5:24:27 PM
+FlightBooking	successfully clicked on row:1 & col:1	PASS	6/21/2017 5:24:27 PM
+FlightBooking	successfully clicked SelectFlight button	PASS	6/21/2017 5:24:28 PM
+FlightBooking	 PassengerName edit success	PASS	6/21/2017 5:24:28 PM
+FlightBooking	successfully clicked Order button	PASS	6/21/2017 5:24:28 PM

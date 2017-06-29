@@ -1,0 +1,8 @@
+Test Name	Expected	Status	Time
+InvalidUser	Application successfully launched	PASS	6/22/2017 1:04:36 PM
+InvalidUser	UserName entered as john	PASS	6/22/2017 1:04:36 PM
+InvalidUser	Password entered as test@123	PASS	6/22/2017 1:04:37 PM
+InvalidUser	successfully clicked Login button	PASS	6/22/2017 1:04:37 PM
+InvalidUser	Successfully found failed login dialog box	PASS	6/22/2017 1:04:37 PM
+InvalidUser	DailogBox  not exist	FAIL	6/22/2017 1:04:41 PM
+InvalidUser	Found already opened FlightGui application, attempting to close it	PASS	6/22/2017 1:04:41 PM

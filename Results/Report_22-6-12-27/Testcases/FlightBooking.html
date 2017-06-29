@@ -1,0 +1,278 @@
+<html>
+
+<head> 
+
+<style type="text/css">.passed{display: table-row; background-color: #E1E1E1; border: 1px solid #4D7C7B; color: #000000; font-size: 0.75em; td, th { padding: 5px; border: 1px solid #4D7C7B; text-align: inherit /; } th.Logos { padding: 5px; border: 0px solid #4D7C7B; text-align: inherit /;} td.justified { text-align: Left; } td.pass { font-weight: bold; color: green; } </style>
+
+<style type="text/css">.failed{display: table-row;background-color: #FFFFFF; color: #000000; font-size: 0.7em; display: table-row;} </style>
+<style type="text/css">.notvisible{display: None; </style>
+<meta charset='UTF-8'> 
+<title>Detailed Results Report</title>
+
+<style type='text/css'>
+
+body { background-color: #FFFFFF; font-family: Verdana, Geneva, sans-serif; text-align: center; } small { font-size: 0.7em; } table { box-shadow: 9px 9px 10px 4px #BDBDBD;border: 0px solid #4D7C7B; border-collapse: collapse; border-spacing: 0px; width: 1000px; margin-left: auto; margin-right: auto; } tr.heading { background-color: #041944;color: #FFFFFF; font-size: 0.7em; font-weight: bold; background:-o-linear-gradient(bottom, #999999 5%, #000000 100%);background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #999999), color-stop(1, #000000));background:-moz-linear-gradient( center top, #999999 5%, #000000 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#999999, endColorstr=#000000); background: -o-linear-gradient(top,#999999,000000);} tr.subheading { background-color: #FFFFFF; color: #000000; font-weight: bold; font-size: 0.7em; text-align: justify; } tr.section { background-color: #A4A4A4; color: #333300; cursor: pointer; font-weight: bold; font-size: 0.7em; text-align: justify; background:-o-linear-gradient(bottom, #56aaff 5%, #e5e5e5 100%); background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #56aaff), color-stop(1, #e5e5e5));background:-moz-linear-gradient( center top, #56aaff 5%, #e5e5e5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#56aaff, endColorstr=#e5e5e5); background: -o-linear-gradient(top,#56aaff,e5e5e5);} tr.subsection { cursor: pointer; } td, th { padding: 5px; border: 1px solid #4D7C7B; text-align: inherit /; } th.Logos { padding: 5px; border: 0px solid #4D7C7B; text-align: inherit /;} 
+
+</style>
+
+</head>
+
+<body>
+</br>
+<table id='Logos'> 
+
+<colgroup>
+
+<col style='width: 25%' />
+
+<col style='width: 25%' />
+
+<col style='width: 25%' />
+
+<col style='width: 25%' />
+
+</colgroup>
+
+<thead>
+
+<tr class='content'>
+
+<th class ='Logos' colspan='2' ><img align ='left' src= '..\Logos\Clientlogo.png'  height=60 width=140></img></th>
+
+<th class = 'Logos' colspan='2' > <img align ='right' src= '..\Logos\Companylogo.png' height=60 width=140></img></th> </tr> 
+
+</thead>
+
+</table><table id='header'> 
+
+<colgroup> <col style='width: 25%' /> 
+
+<col style='width: 25%' /> 
+
+<col style='width: 25%' /> 
+
+<col style='width: 25%' /> 
+
+</colgroup>
+
+<thead>
+
+<tr class='heading'> 
+
+<th colspan='4' style='font-family:Copperplate Gothic Bold; font-size:1.4em;'> **FlightBooking **</th>
+
+</tr> 
+
+<tr class='subheading'>
+
+<th>&nbsp;Date&nbsp;&&nbsp;Time&nbsp;:&nbsp;</th> 
+
+<th>22-Jun-2017 12:28</th>
+
+<th>&nbsp;Oracle&nbsp;Version&nbsp;:&nbsp;</th>
+
+<th> Oracle 12.1.3</th> 
+
+</tr> 
+
+</thead>
+
+</table>
+
+<table id='main' cellpadding="0" cellspacing="0"> 
+
+<Head>
+
+<Body>
+
+<colgroup>
+
+<col style='width: 5%' /> <col style='width: 26%' /> <col style='width: 51%' /> 
+
+<col style='width: 8%' /> <col style='width: 10%' />
+
+</colgroup>
+<thead>
+<tr class='heading'>
+<th>S.No</th> 
+<th>Step
+<INPUT id="txtStepValue" value = "Search" onclick="BlankStatus()" onchange="filterStatus()">
+</th> 
+<th>Details
+<INPUT id ="txtDetailsValue" value = "Search" onclick = "BlankDetails()" onchange="filterDetails()">
+</th> 
+<th> Status
+<select id="filter" onchange="filter()">
+<option value="all">All</option> 
+<option value="passed">Passed</option>
+<option value="failed">Failed</option>
+</select>
+</th>
+<th>Time</th>
+</tr> 
+
+
+
+
+
+<script type="text/javascript">
+
+function filter()
+
+{
+
+if(document.getElementById("filter").value=="passed")
+
+{
+
+document.getElementsByTagName("style")[0].textContent = ".passed{display: table-row;background-color: #E1E1E1; border: 1px solid #4D7C7B; color: #000000; font-size: 0.75em;}";
+
+document.getElementsByTagName("style")[1].textContent = ".failed{display: none;}";
+
+}
+
+else if (document.getElementById("filter").value=="failed")
+
+{
+
+document.getElementsByTagName("style")[1].textContent = ".failed{display: table-row;background-color: #FFFFFF;color: #000000; font-size: 0.7em; display: table-row;}";
+
+document.getElementsByTagName("style")[0].textContent = ".passed{display: none;}";
+
+}
+
+else
+
+{
+
+document.getElementsByTagName("style")[0].textContent = ".passed{display: table-row;background-color: #E1E1E1; border: 1px solid #4D7C7B; color: #000000; font-size: 0.75em;}";
+
+document.getElementsByTagName("style")[1].textContent = ".failed{display: table-row;background-color: #FFFFFF;color: #000000; font-size: 0.7em; display: table-row;}";
+
+}
+
+}
+
+</script>
+
+<script type="text/javascript">
+function filterStatus()
+{
+searchtext = (document.getElementById("txtStepValue").value).toLowerCase();
+if(searchtext!="")
+{
+var rowIndex = 0; // rowindex, in this case the first row of your table
+var table = document.getElementById('main'); // table to perform search on
+var row = table.getElementsByTagName("tr");
+irowcount = row.length
+for (i = 1; i < row.length; i++) {
+status = (row[i].getElementsByTagName("td")[1].textContent).toLowerCase();
+if (status.indexOf(searchtext) == -1) 
+{
+row[i].className = 'content notvisible'
+}}}
+else {
+window.location.reload()
+}}
+</script>
+<script type="text/javascript">
+function filterDetails()
+{
+searchtext = (document.getElementById("txtDetailsValue").value).toLowerCase();
+if(searchtext!="")
+{
+var rowIndex = 0; // rowindex, in this case the first row of your table
+var table = document.getElementById('main'); // table to perform search on
+var row = table.getElementsByTagName("tr");
+for (i = 1; i < row.length; i++) {
+Details = (row[i].getElementsByTagName("td")[2].textContent).toLowerCase();;
+if (Details.indexOf(searchtext) == -1) 
+{
+row[i].className = 'content notvisible'
+}}}
+else {
+window.location.reload()
+}}
+</script>
+<script type="text/javascript">
+function BlankStatus()
+{
+document.getElementById("txtStepValue").value = "";
+}
+</script>
+<script type="text/javascript">
+function BlankDetails()
+{
+document.getElementById("txtDetailsValue").value = "";
+}
+</script>
+<tr class='content passed' ><td>1</td> 
+<td class='justified'>Launch Flight Application</td>
+<td class='justified'>Application successfully launched</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:4</small></td> </tr>
+<tr class='content passed' ><td>2</td> 
+<td class='justified'>UserName edit</td>
+<td class='justified'>UserName entered as john</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:5</small></td> </tr>
+<tr class='content passed' ><td>3</td> 
+<td class='justified'>Password edit</td>
+<td class='justified'>Password entered as hp</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:5</small></td> </tr>
+<tr class='content passed' ><td>4</td> 
+<td class='justified'>Click Login button</td>
+<td class='justified'>successfully clicked Login button</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:5</small></td> </tr>
+<tr class='content passed' ><td>5</td> 
+<td class='justified'>Menu selection</td>
+<td class='justified'>Frankfurt is selected for fromCity dropdown</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:6</small></td> </tr>
+<tr class='content passed' ><td>6</td> 
+<td class='justified'>Menu selection</td>
+<td class='justified'>London is selected for ToCity dropdown</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:6</small></td> </tr>
+<tr class='content passed' ><td>7</td> 
+<td class='justified'>Menu selection</td>
+<td class='justified'>Economy is selected for Classtype dropdown</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:7</small></td> </tr>
+<tr class='content passed' ><td>8</td> 
+<td class='justified'>Menu selection</td>
+<td class='justified'>1 is selected for Tickets dropdown</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:7</small></td> </tr>
+<tr class='content passed' ><td>9</td> 
+<td class='justified'>Click FindFlight button</td>
+<td class='justified'>successfully clicked FindFlight button</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:7</small></td> </tr>
+<tr class='content passed' ><td>10</td> 
+<td class='justified'>ClickCell on flightno datagrid</td>
+<td class='justified'>In flightno grid, successfully clicked on row:1 & col:1</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:8</small></td> </tr>
+<tr class='content passed' ><td>11</td> 
+<td class='justified'>Click SelectFlight button</td>
+<td class='justified'>successfully clicked SelectFlight button</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:8</small></td> </tr>
+<tr class='content passed' ><td>12</td> 
+<td class='justified'>PassengerName edit</td>
+<td class='justified'>PassengerName entered as KishoreB</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:8</small></td> </tr>
+<tr class='content passed' ><td>13</td> 
+<td class='justified'>Click Order button</td>
+<td class='justified'>successfully clicked Order button</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:8</small></td> </tr>
+<tr class='content passed' ><td>14</td> 
+<td class='justified'>FlightGui</td>
+<td class='justified'>Found already opened FlightGui application, attempting to close it</td>
+<td class='Pass' align='center'><img  src='..\Logos\Pass.png' width='25' height='25'/></td> 
+<td><small>22-Jun-2017 12:28:8</small></td> </tr>

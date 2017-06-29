@@ -1,0 +1,50 @@
+<Environment>
+		
+
+		<Variable> 
+				<Name>OracleURL</Name>
+				<Value>http://CDC-059.cigniti.local:8000/OA_HTML/AppsLogin</Value>
+		</Variable>
+
+		<Variable> 
+				<Name>InfoSemanticsOracleURL</Name>
+				<Value>http://r12vis.infosemantics.net/</Value>
+		</Variable>
+
+		<Variable> 
+				<Name>OracleUserID</Name>
+				<Value>OPERATIONS</Value>
+		</Variable>
+		
+			
+		<Variable> 
+				<Name>OraclePassword</Name>
+				<Value>welcome</Value>
+		</Variable>
+		
+		<Variable> 
+				<Name>InfoSemanticsOracleUserID</Name>
+				<Value>ARCHANA.N0525</Value>
+		</Variable>
+		
+			
+		<Variable> 
+				<Name>InfoSemanticsOraclePassword</Name>
+				<Value>0525ARCHANA.N</Value>
+		</Variable>
+		
+		
+		<Variable> 
+				<Name>TCID</Name>
+				<Value>1</Value>
+		</Variable>
+		<Variable> 
+				<Name>AUTOSUMMARYDISPLAY</Name>
+				<Value>YES</Value>
+		</Variable>
+		<Variable> 
+				<Name>ORACLEVERSION</Name>
+				<Value>Oracle 12.1.3</Value>
+		</Variable>
+
+</Environment>

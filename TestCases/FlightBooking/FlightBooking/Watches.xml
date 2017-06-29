@@ -1,0 +1,5 @@
+﻿<Properties>
+  <WatchEntry0 value="err.number" />
+  <WatchEntry1 value="strValue" />
+  <WatchEntry2 value="objObject.Select &quot;Paris&quot;" />
+</Properties>
